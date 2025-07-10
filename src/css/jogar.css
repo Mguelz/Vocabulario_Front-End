@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: linear-gradient(to right, #0099ff, #66ccff)
+  ;}
+
+
+.jogo-container {
+    background: linear-gradient(to right, #0099ff, #66ccff);
+    padding: 30px;
+    text-align: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .titulo {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  .palavra {
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .input-grande {
+    font-size: 32px;
+    padding: 15px;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .botao-verificar {
+    font-size: 28px;
+    padding: 10px 30px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .feedback {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff700;
+    margin-bottom: 20px;
+  }
+  
+  .botao-voltar {
+    font-size: 24px;
+    background-color: #ffffff;
+    color: #0099ff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+
+  .textarea-grande {
+    font-size: 28px;
+    padding: 15px;
+    width: 60%;
+    height: 120px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    resize: none;
+  }
+
+  .botao-parar {
+    font-size: 24px;
+    background-color: #ff4444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+
+  .painel {
+    background-color: #ffffff88;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+  }
+  .painel strong {
+    color: #0066cc;
+  }
+  
