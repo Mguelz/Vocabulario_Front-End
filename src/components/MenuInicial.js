@@ -1,14 +1,17 @@
 import React from 'react';
+import "../css/menuInicial.css";
 
 function MenuInicial({ navegar }) {
   return (
-    <div>
-      <h2>O que você deseja fazer?</h2>
-      <button onClick={() => navegar('jogar')}>Jogar</button>
-      <button onClick={() => navegar('cadastrar')}>Cadastrar</button>
-      <button onClick={() => navegar('atualizar')}>Atualizar</button>
-      <button onClick={() => navegar('listar')}>Listar</button>
-      <button onClick={() => navegar('excluir')}>Excluir</button>
+    <div className="menu-container">
+      <h2 className="menu-titulo">O que você deseja fazer?</h2>
+      <div className="botoes-container">
+        <button className="menu-botao" onClick={() => navegar('jogar')}>Jogar</button>
+        <button className="menu-botao" onClick={() => navegar('cadastrar')}>Cadastrar</button>
+        <button className="menu-botao" onClick={() => navegar('atualizar')}>Atualizar</button>
+        <button className="menu-botao" onClick={() => navegar('listar')}>Listar</button>
+        <button className="menu-botao" onClick={() => navegar('excluir')}>Excluir</button>
+      </div>
     </div>
   );
 }

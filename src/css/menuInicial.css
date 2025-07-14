@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+.menu-container {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    min-height: 100vh;
+    width: 100vw; /* Garante largura total */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    text-align: center;
+    }
+    
+.menu-titulo {
+  font-size: 60px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.botoes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    max-width: 400px; /* Maior que os 300px anteriores */
+  }
+
+.menu-botao {
+  background-color: #005bdb; /* Cor azul principal */
+  color: white;
+  border: none;
+  padding: 25px 30px;
+  font-size: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+
+.menu-botao:hover {
+    background-color: #003f9e;
+    transform: scale(1.10);       /* Efeito sutil de crescimento no hover */
+  }
