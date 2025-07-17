@@ -8,7 +8,7 @@ function Atualizar({ voltar }) {
 
   function handleUpdate(e) {
     e.preventDefault();
-    fetch('http://localhost:8080/pares', {
+    fetch('https://vocabulario-back-end.onrender.com/pares', {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ id, portugues, ingles })

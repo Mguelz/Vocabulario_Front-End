@@ -7,7 +7,7 @@ function Cadastrar({ voltar }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch('http://localhost:8080/pares', {
+    fetch('https://vocabulario-back-end.onrender.com/pares', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ portugues, ingles })

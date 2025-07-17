@@ -5,7 +5,7 @@ function Excluir({ voltar }) {
   const [mensagem, setMensagem] = useState('');
 
   function handleDelete() {
-    fetch(`http://localhost:8080/pares/${id}`, {
+    fetch(`https://vocabulario-back-end.onrender.com/pares/${id}`, {
       method: 'DELETE'
     })
       .then(res => {

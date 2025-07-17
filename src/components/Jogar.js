@@ -12,7 +12,7 @@ function Jogar({ voltar }) {
 
   // Buscar novo par ao carregar ou após resposta
   function carregarNovaPalavra() {
-    fetch("http://localhost:8080/pares/aleatorio")
+    fetch("https://vocabulario-back-end.onrender.com/pares/aleatorio")
       .then((res) => res.json())
       .then((data) => {
         console.log("Resposta da API: ", data);

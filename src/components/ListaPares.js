@@ -4,7 +4,7 @@ function Listar({ voltar }) {
   const [pares, setPares] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8080/pares')
+    fetch('https://vocabulario-back-end.onrender.com/pares')
       .then(res => res.json())
       .then(data => setPares(data))
       .catch(err => console.error('Erro ao listar pares:', err));
