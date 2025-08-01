@@ -99,22 +99,3 @@ body {
   .painel strong {
     color: #0066cc;
   }
-  
-  /* .palavra {
-    font-size: 4rem;
-    font-weight: bold;
-    margin: 20px 0;
-    color: #ffffff;
-    text-align: center;
-  }
-
-  .palavra.loading {
-    opacity: 0.6;
-    animation: pulse 1s infinite ease-in-out;
-  }
-  
-  @keyframes pulse {
-    0% { opacity: 0.4; }
-    50% { opacity: 1; }
-    100% { opacity: 0.4; }
-  } */

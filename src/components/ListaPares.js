@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import '../css/listar.css';
 
 function Listar({ voltar }) {
   const [pares, setPares] = useState([]);
@@ -12,15 +13,19 @@ function Listar({ voltar }) {
 
   return (
     <div>
-      <h2>Pares Cadastrados</h2>
-      <ul>
+      <button className='botao-voltar' onClick={voltar}>Voltar</button>
+      <h2 className='titulo'>PARES CADASTRADOS</h2>
+      <ul className="lista-pares">
         {pares.map(par => (
-          <li key={par.id}>
-            ID {par.id}: {par.portugues} — {par.ingles}
+          <li key={par.id} className="par-card">
+            <strong>{par.id}</strong><br />
+            {par.portugues} <br></br>
+            {par.ingles}
           </li>
         ))}
       </ul>
-      <button onClick={voltar}>Voltar</button>
+
+      <button className='botao-voltar' onClick={voltar}>Voltar</button>
     </div>
   );
 }

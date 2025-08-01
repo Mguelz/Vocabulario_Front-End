@@ -1,0 +1,59 @@
+.listar-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+  }
+  
+  .lista-pares {
+    list-style: none; /* remove os pontos da lista */
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 16px;
+    margin: 30px 0;
+    justify-items: center;
+  }
+  
+   .par-card {
+    background-color: #f0f8ff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 160px;
+    font-size: 16px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .par-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .par-card p {
+    margin: 6px 0;
+    font-size: 1rem;
+  }
+  
+  .botao-voltar:hover {
+    background-color: #115293;
+  }
+
+  .botao-voltar {
+    font-size: 24px;
+    background-color: #ffffff;
+    color: #0099ff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border-radius: 30px;
+  }
