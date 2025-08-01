@@ -1,0 +1,41 @@
+.validar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #f3f3f3;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 80px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .senha-input {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .botao-validar, .botao-voltar-validacao {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .botao-voltar-validacao {
+    background-color: #f44336;
+  }
+  
+  .erro-senha {
+    color: red;
+    margin-top: 10px;
+  }
+  
