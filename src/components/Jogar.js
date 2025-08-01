@@ -66,6 +66,7 @@ function Jogar({ voltar }) {
             placeholder="Digite a tradução em português"
             onKeyPress={(e) => e.key === "Enter" && verificar()}
           />
+          <br></br>
           <button className="botao-verificar" onClick={verificar}>
             Verificar
           </button>
